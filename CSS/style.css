@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'NexaBold';
+    src: url('NexaBold.eot');
+    src: url('NexaBold.eot?#iefix') format('embedded-opentype'),
+        url('NexaBold.woff2') format('woff2'),
+        url('NexaBold.woff') format('woff'),
+        url('NexaBold.ttf') format('truetype'),
+        url('NexaBold.svg#NexaBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NexaLight';
+    src: url('NexaLight.eot');
+    src: url('NexaLight.eot?#iefix') format('embedded-opentype'),
+        url('NexaLight.woff2') format('woff2'),
+        url('NexaLight.woff') format('woff'),
+        url('NexaLight.ttf') format('truetype'),
+        url('NexaLight.svg#NexaLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+	margin-top: -2px;
+}
+
+.first{
+	background: url(../Images/Background1.png);
+	height: 675px;
+	width: 100%;
+	position: relative;
+	float: left;
+
+}
+
+.mnav{
+	position: sticky;
+	top: 25px;
+	height: 0;
+	z-index: 10000;
+	width: 100%;
+	margin-left:auto;
+	margin-right: auto;
+}
+
+
+.navigation{
+	letter-spacing: 2px;
+	font-size: 15px;
+	font-family: NexaLight;
+	color: #f1f1f1;
+	margin-left: 30px; 
+	text-transform :uppercase;
+	color: red;
+	text-align: center;
+
+}
+.border{
+	border: 1px rgb(255, 255, 255) solid;
+	top:62px;
+	width: 1120px;
+}
+
+.article{
+	
+	height: 675px;
+	width: 100%;
+	position: relative;
+	float: left;
+	background-color: red;
+}
+
+.section2{
+	background: url(../Images/Background3.png);
+	height: 675px;
+	width: 100%;
+	position: relative;
+	float: left;
+}
+
+.footer{
+
+	height: 675px;
+	width: 100%;
+position: relative;
+	float: left;
+	background-color: gray;
+}
